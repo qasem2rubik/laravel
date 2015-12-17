@@ -12,6 +12,6 @@
 */
 
 Route::get('contact', 'qasemcontroller@sh_me');
-Route::get('home', function () {
+Route::get('/', function () {
     return view('welcome');
 });
